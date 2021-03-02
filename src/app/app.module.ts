@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/view/header/header.component';
 import { FooterComponent } from './components/view/footer/footer.component';
 import { NavComponent } from './components/view/nav/nav.component';
 import { ShoppingComponent } from './components/shopping/shopping.component';
+import { FiltersComponent } from './components/shopping/filters/filters.component';
+import { ProductListComponent } from './components/shopping/product-list/product-list.component';
+import { CartComponent } from './components/shopping/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ShoppingComponent } from './components/shopping/shopping.component';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    ShoppingComponent
+    ShoppingComponent,
+    FiltersComponent,
+    ProductListComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
