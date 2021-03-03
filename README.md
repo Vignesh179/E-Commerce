@@ -1,5 +1,7 @@
 # E-Commerce Application using Angular 11
 
-## npm install 
+## Clone the repo 
+
+## npm install
 
 ## ng serve --open
