@@ -1,9 +1,10 @@
 <div style="padding: 3px; margin: 2px;"class="card align-items-center" >
-<img width="100%" height="100%"class="responsive" src="../../../../../assets/oneplus.jpg">
+<img width="100%" height="100%"class="responsive" [src]="productItem.imageUrl">
 
 <div class="card-body">
-    <strong>Price :{{25000 | currency:"INR"}}</strong>
+    <strong>Price :{{productItem.price | currency:"INR"}}</strong>
     <!-- <div class="d-flex justify-content-between align-items-center"> -->
+        <p class="card-text">{{productItem.description}}</p>
         <div class="btn-group">
             <button type="button" class="btn btn-sm btn-outline-success">Add to cart</button>
             <button type="button" class="btn btn-sm btn-outline-info">View</button>
